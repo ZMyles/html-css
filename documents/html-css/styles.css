@@ -1,0 +1,28 @@
+
+body {
+    background-color: #f9fafc;
+}
+
+a {
+    float: right;
+    padding: 10px;
+    text-decoration: none;
+    color:#69696a;
+}
+
+h4 {
+    float: left;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Classes ------------------- */
+
+.highlight {
+    background-color: #000;
+    color:#f9fafc; 
+    border-radius: 2em;
+    width: 6%;
+    text-align: center;
+}
+
