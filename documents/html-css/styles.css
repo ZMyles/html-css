@@ -20,6 +20,7 @@ h4 {
     float: left;
     padding: 15px;
     margin: 0;
+    font-size: 20px;
 }
 
 h1 {
@@ -93,4 +94,13 @@ nav {
     position: absolute;
     top: 250px;
     right: 230px;
+}
+
+.highlight-2 {
+    background-color: #000;
+    color:#f9fafc; 
+    border-radius: 2em;
+    width: 6%;
+    margin-right: 640px;
+    margin-top: 460px;
 }
