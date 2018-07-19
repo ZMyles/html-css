@@ -1,3 +1,52 @@
-@media only screen and(max-width: 768px){
-    
+
+@media only screen and (max-width: 1200px) {
+
+ body {
+     padding: 10px;
+ }
+
+ a {
+    text-decoration: none; 
+    display: block;;
+    padding-top: 5px;
+    font-size: 1.2em;
+    font-family: Open Sans;
+    color: #69696a;
+ }
+
+
+ .main-header {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .highlight {
+    background-color: #000;
+    color:#f9fafc; 
+    border-radius: 2em;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+    padding: 10px;
+ }
+
+
+ h1 {
+     font-size: 2em;
+ }
+
+ 
+
+ p {
+    border-left: 2px #69696a  solid;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.2em;
 }
+
+
+}
+
+
+ 
+

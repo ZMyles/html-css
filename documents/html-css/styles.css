@@ -1,12 +1,12 @@
+
+@media only screen and (min-width: 768px) {
+
 * {
     padding: 0;
     padding-left: 10px;
     padding-right: 10px;
-    Font family: Open Sans;
+    font family: Open Sans;
 }
-
-
-
 
 
 body {
@@ -144,5 +144,8 @@ nav {
     width: 6%;
     margin-right: 640px;
     margin-top: 460px;
+    position: fixed;
+
+}
 
 }
