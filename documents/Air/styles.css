@@ -1,0 +1,104 @@
+@media only screen and (min-width: 736) {
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("css/nicecloud.jpg");
+    background-size: 1100px;
+    background-repeat: no-repeat;
+    
+}
+
+.content {
+    height: 600px;
+    display: flex;
+
+}
+
+/* --- actual content ---- */
+h1 {
+    font-family: 'Lobster', cursive; 
+    font-size: 50px;
+    margin: 10px;
+    text-shadow: 5px 5px 5px gray;
+    color: lightblue;
+}
+
+span {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+p{
+    margin-top: 20px;
+    border-left: gray solid 3px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+
+img {
+    width: 50%;
+    margin: 20px;
+    margin-left: 60px;
+    border-radius: 5%;
+}
+
+
+h2 {
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Lobster', cursive;
+    padding-right: 35px;
+    
+}
+
+.box{
+    background: white;
+    border-radius: 5%;
+    height: 450px;
+    width: 500px;
+    margin: 40px;
+    padding: 20px;
+    border: 5px gray solid;
+}
+
+
+.main-header {
+    background: lightblue;
+    height: 90px;
+    display: flex;
+    justify-content:  space-between;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 8px black;
+   
+   
+}
+
+.nav {
+    
+}
+
+
+/* nav ----------- */
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    padding: 10px;
+    border-left: white 2px solid;
+}
+    
+a:hover {
+    color: blue;
+}
+
+/*nav end--------- */
+
+}
