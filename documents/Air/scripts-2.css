@@ -9,20 +9,19 @@
     display: flex;
     flex-direction: column-reverse;
     position: fixed;
-    bottom: 795px;
+    bottom: 740px;
     width: 100%
 
 }
 
 .main-header {
-    background: lightblue;
+    background: linear-gradient(to right, blue, lightblue);
     height: 90px;
     display: flex;
     justify-content:  space-between;
     align-items: center;
     border-bottom: gray solid 5px;
     border-top: gray solid 5px;
-    
 }
 
 a {
@@ -60,37 +59,47 @@ body{
 
 .content {
     margin-top: 100px;
-    background-image: url("css/clouds.jpg");
+    background-image: url("css/nicecloud.jpg");
     background-repeat: no-repeat;
+    background-size: 6000px 1200px;
+    height: 100%;
 }
 
 h1 {
     font-family: 'Lobster', cursive; 
-    font-size: 90px;
+    font-size: 120px;
     margin: 10px;
     text-shadow: 5px 5px 5px gray;
     color: lightblue;
+    
 }
 
 span {
-    margin: 10px;
+
     font-family: 'Lobster', cursive; 
     font-size: 30px;
     margin-left: 40px;
+    color: grey
 }
 
 p{
-    margin-top: 20px;
+    margin-top: 40px;
     border-left: gray solid 3px;
     font-family: 'Roboto', sans-serif;
     padding-left: 10px;
     width: 50%;
+    font-size: 20px;
 }
 
 
 .box {
-    padding: 20px;
+    padding: 60px;
     margin: 60px;
+    background: white;
+    border: gray 5px solid;
+    border-radius: 2%;
+    height: 50%;
+    box-shadow: 10px 10px 5px gray;
 }
 
 img {
@@ -99,8 +108,9 @@ img {
     margin-left: 60px;
     border-radius: 5%;
     position: relative;
-    left: 800px;
+    left: 700px;
     bottom: 250px;
+    box-shadow: 10px 5px 10px gray;
     
 }
 
@@ -110,5 +120,6 @@ img {
 #second-p {
     margin-top: 40px;
 }
+
 
 }

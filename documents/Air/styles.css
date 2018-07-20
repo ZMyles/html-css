@@ -71,7 +71,7 @@ h2 {
 
 
 .main-header {
-    background: lightblue;
+    background: linear-gradient(to right, blue, lightblue);
     height: 90px;
     display: flex;
     justify-content:  space-between;
