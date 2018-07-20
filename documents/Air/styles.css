@@ -62,11 +62,13 @@ h2 {
 .box{
     background: white;
     border-radius: 5%;
-    height: 450px;
+    height: 100%;
     width: 500px;
     margin: 40px;
     padding: 20px;
     border: 5px gray solid;
+    z-index: -1;
+    
 }
 
 
