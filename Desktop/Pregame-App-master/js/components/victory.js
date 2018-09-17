@@ -1,6 +1,11 @@
 "use strict";
 
+const victory = {
+  template: `
+   <h1>YOU WIN</h1>
+  `
+}
 
 
 angular.module("pregame")
-        .component("winner", winner);
+        .component("victory", victory);

@@ -21,6 +21,12 @@ angular.module("pregame")
               .when("/trivia5", {
                 template: `<trivia5></trivia5>`
               })
+              .when("/victory", {
+                template: `<victory></victory>`
+              })
+              .when("/defeat", {
+                template: `<defeat></defeat>`
+              })
               .otherwise({redirectTo:"/home"})
                 
           })

@@ -11,15 +11,16 @@ const trivia ={
         <input type="radio" ng-value="false" name="{{$index}}" ng-model="userAnswer">False
         <button>Submit</button>
 
-        <a href="#!/trivia2">Test</a>
+        
     </form>
-    
+    <a href="#!/trivia2">Test</a>
 
     </div>
 `,
 
-controller:["Quiz", function(Quiz){
+controller:["Quiz", "$location" ,function(Quiz,$location){
 const vm=this;
+        vm.total = 0;
         vm.trivia;
         vm.questions=()=>{
             Quiz.triviaSearch().then((response)=>{
@@ -31,15 +32,19 @@ const vm=this;
 
     vm.answer=(userAnswer, correctAnswer)=> {
         let correct = correctAnswer;
-        if (userAnswer + '' == correctAnswer) {
+        console.log(userAnswer);
+        console.log(correctAnswer);
+        if (userAnswer + '' === correctAnswer.toLowerCase()) {
             console.log("Correct");
+            vm.total ++
+            console.log(vm.total);
+            $location.path("/trivia2")
         } else {
             console.log("You're wrong. you suck");
+            $location.path("/trivia2");
         }
-        console.log(userAnswer);
-        console.log(correctAnswer);        
-    } 
-     
+           
+    }     
 }
 ]
 };
