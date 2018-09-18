@@ -5,11 +5,13 @@ const triviaFive = {
   <div class="movingBackground">
   <p class="questions">{{ $ctrl.trivia[4].question }}</p>
 
+  <div class="bodyBlock">
   <form ng-submit="$ctrl.answer(userAnswer,$ctrl.trivia[4].correct_answer);">
       <input class="buttonTrue" type="button" ng-value="true" name="{{$index}}" ng-model="userAnswer">
       <input class="buttonFalse" type="button" ng-value="false" name="{{$index}}" ng-model="userAnswer">
       <button class="submitBtn">Submit</button>
   </form>
+  </div>
 </div>
       
      `,

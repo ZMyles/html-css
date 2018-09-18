@@ -36,10 +36,6 @@ h1 {
   }
 }
 
-  /* h1:hover{
-    text-shadow: 10px 10px red;
-} */
-
 
 /* -------*/
 nav {
@@ -159,7 +155,9 @@ form{
 .questions {
   color: white;
   padding: 40px;
-
+  font-size: 60px;
+  margin: 0 auto;
+  font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .submitBtn {
@@ -217,6 +215,16 @@ input {
   color: gray;
   transform: translateY(-7px);
 }
+
+
+.bodyBlock {
+  background: purple;
+  padding: 25px;
+
+}
+
+
+
 
 
 
