@@ -8,7 +8,7 @@ const homePage = {
        
        <nav
             <ul>
-                <li><a href="#!/trivia">Start</a></li>
+                <li><a href="#!/trivia">Start?</a></li>
             </ul>
         </nav>
         </div>

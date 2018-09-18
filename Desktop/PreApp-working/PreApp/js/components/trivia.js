@@ -7,8 +7,10 @@ const trivia = {
         <form ng-submit="$ctrl.answer(userAnswer,$ctrl.trivia[0].correct_answer);">
             <input class="buttonTrue" type="button" ng-value="true" name="{{$index}}" ng-model="userAnswer">
             <input class="buttonFalse" type="button" ng-value="false" name="{{$index}}" ng-model="userAnswer">
-            <button class="submitBtn">Submit</button>
+            
+            <button  class="submitBtn">Submit</button>
         </form>
+        
     </div>
     `,
     //Injected Our "Quiz" services and "$location" to use their properties 
