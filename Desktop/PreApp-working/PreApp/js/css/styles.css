@@ -118,6 +118,7 @@ nav li:hover::after {
     opacity: 0.9;
     animation: move 3.5s linear infinite;
 }
+
 p{
   
   font-family: 'Exo', sans-serif;
@@ -151,7 +152,6 @@ form{
   padding: 40px;
 
 }
-  
 
 .submitBtn {
   font-size: 60px;
@@ -167,7 +167,7 @@ form{
 
 .submitBtn:hover {
   box-shadow: 0px 15px 20px black;
-  color: #fff;
+  color: gray;
   transform: translateY(-7px);
 }
 
@@ -189,7 +189,7 @@ input {
 
 .buttonTrue:Hover {
   box-shadow: 0px 15px 20px black;
-  color: #fff;
+  color: gray;
   transform: translateY(-7px);
 }
 
@@ -205,7 +205,7 @@ input {
 
 .buttonFalse:hover {
   box-shadow: 0px 15px 20px black;
-  color: #fff;
+  color: gray;
   transform: translateY(-7px);
 }
 

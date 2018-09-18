@@ -2,6 +2,7 @@
 
 const victory = {
   template: `
+  <div>
    <h1>YOU WIN</h1>
   `
 }
