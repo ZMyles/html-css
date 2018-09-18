@@ -17,9 +17,6 @@ const homePage = {
 }
 
 
-
-
-
 angular
 .module("pregame")
 .component("homePage",homePage);
