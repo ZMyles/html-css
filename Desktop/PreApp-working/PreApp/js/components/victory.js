@@ -2,8 +2,9 @@
 
 const victory = {
   template: `
-  <div>
+  <div class="movingBackground">
    <h1>YOU WIN</h1>
+  <.div>
   `
 }
 

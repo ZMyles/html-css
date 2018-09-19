@@ -2,7 +2,9 @@
 
 const defeat = {
   template: `
+  <div class="defeatPage">
     <h1>YOU LOSE</h1>
+  </div>
   `
 }
 
